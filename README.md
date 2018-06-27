@@ -1,6 +1,6 @@
 # SitOnChair
 
-**Demo:** https://karoczerwinska.github.io/Sit_On_Chair
+**Demo:** https://karoczerwinska.github.io/Sit_On_Chair/
 
 Sit On Chair is a website made as a project for a furniture company. Additional functionalities such as photo slider and a calculator adding the various combinations of the order have been written in JavaScript.
 
@@ -9,7 +9,7 @@ Sit On Chair is a website made as a project for a furniture company. Additional 
 - CSS
 - SASS
 - JavaScript
-- GULP
+- Gulp
 
 ## Preview:
 ![alt txt](images/template.jpg)
