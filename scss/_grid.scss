@@ -1,0 +1,42 @@
+$column: 12;
+$gap: 10px;
+$breakpoint: 768px;
+
+.container {
+  padding-right: $gap;
+  padding-left: $gap;
+
+  .row {
+    margin-left: -$gap;
+    margin-right: -$gap;
+
+    &:after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+  }
+
+  [class*="col-"] {
+    //float: left;
+    padding-left: $gap;
+    padding-right: $gap;
+    box-sizing: border-box;
+    margin-bottom: $gap*2;
+  }
+
+  .row {
+
+    @media(min-width: #{$breakpoint}) {
+      @for $i from 1 through $column {
+
+        .col-#{$i}-#{$column} {
+          float: left;
+          width: (100 / $column * $i) * 1%;
+        }
+
+      }
+
+    }
+  }
+}
