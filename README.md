@@ -4,7 +4,7 @@ Sit On Chair is a website made as a project for a furniture company. Additional 
 
 ## Demo
 
-[SitOnChair - Live DEMO] (https://karoczerwinska.github.io/Sit_On_Chair/)
+[SitOnChair - Live DEMO](https://karoczerwinska.github.io/Sit_On_Chair/)
 
 ## Technologies used in this project:
 - HTML
