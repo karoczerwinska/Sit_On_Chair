@@ -13,6 +13,6 @@ Sit On Chair is a website made as a project for a furniture company. Additional 
 - JavaScript
 - Gulp
 
-## Preview:
+## Preview
 ![alt txt](images/template.jpg)
 
